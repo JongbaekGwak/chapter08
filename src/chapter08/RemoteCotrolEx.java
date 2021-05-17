@@ -35,6 +35,9 @@ public class RemoteCotrolEx {
 		Searchable sa = new SmartTelevision();
 		sa.searchable("google.com");
 //		sa.turnOn(); // turnOn 은 RemoteControl interface의 멤버이기 때문에 사용 불가
+		
+//		RemoteControl interface의 정정 메서드 사용
+		RemoteControl.changeBattery();
 	}
 
 }
